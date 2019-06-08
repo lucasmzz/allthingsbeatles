@@ -25,12 +25,13 @@ body{
     display: block;
     border-bottom: 2px solid black;
     background-color: rgba(137, 43, 226, 0.411);
+    padding: 0rem 1rem;
 }
 
 .menu-list li{
     display: inline-block;
     float: right;
-    margin: .5rem .7rem;
+    margin: .5rem 1rem;
     padding: .5rem;
 }
 
