@@ -20,7 +20,7 @@ body{
 .nav{
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
     height: 4.5rem;
     display: block;
     border-bottom: 2px solid black;
@@ -40,6 +40,19 @@ body{
     color: #fff;
 }
 
+.logo-box{
+    position: absolute;
+    top: 3rem;
+    left: 50%;
+    transform: translate(-50%,0);
+    animation: fadeIn 3s ease-out 1s;
+    animation-fill-mode: backwards;
+}
+
+
+#beatles-logo{
+    height: 12rem;
+}
 
 .header{
     background-image: linear-gradient(to right bottom,rgba(243, 213, 79, 0.801),rgba(223, 155, 9, 0.801)),url(./bg.jpg);
