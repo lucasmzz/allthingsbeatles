@@ -56,11 +56,21 @@ body{
 }
 
 .header{
-    background-image: linear-gradient(to right bottom,rgba(243, 213, 79, 0.801),rgba(223, 155, 9, 0.801)),url(./bg.jpg);
+    background-image: linear-gradient(to right bottom,rgba(243, 213, 79, 0.801),rgba(223, 155, 9, 0.801)),url(../images/bg.jpg);
     background-size: cover;
     background-position: top;
     height: 100vh;
 }
+
+#icon-down i{
+    color: rgba(96, 0, 160, 0.685);
+    padding: 4rem 0;
+}
+
+#icon-down i:hover{
+    color: rgb(96, 0, 160);
+}
+
 
 #members{
     margin: 10rem 0rem;
